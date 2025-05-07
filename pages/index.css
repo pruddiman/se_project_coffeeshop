@@ -6,3 +6,191 @@
   font-size: 16px;
   line-height: 20px;
 }
+
+.header {
+  /* add styles here */
+}
+
+.header__title {
+  /* add styles here */
+}
+
+.header__description {
+  /* add styles here */
+}
+
+.header__image {
+  /* add styles here */
+}
+
+.header__footer {
+  /* add styles here */
+}
+
+.header__link {
+  /* add styles here */
+}
+
+.header__link:hover {
+  /* add styles here */
+}
+
+.header__address {
+  /* add styles here */
+}
+
+.nav {
+  /* add styles here */
+}
+
+.nav__logo {
+  /* add styles here */
+}
+
+.nav__links {
+  /* add styles here */
+}
+
+.nav__link {
+  /* add styles here */
+}
+
+.nav__link:hover {
+  /* add styles here */
+}
+
+.recipes {
+  /* add styles here */
+}
+
+.recipes__content {
+  /* add styles here */
+}
+
+.recipes__heading {
+  /* add styles here */
+}
+
+.recipes__title {
+  /* add styles here */
+}
+
+.recipes__info-section {
+  /* add styles here */
+}
+
+.recipes__item {
+  /* add styles here */
+}
+
+.recipes__image_aeropress_text {
+  /* add styles here */
+}
+
+.recipes__image_frenchpress_text {
+  /* add styles here */
+}
+
+.event-info__icon_type_pin {
+  /* add styles here and change title */
+}
+
+.recipes__text {
+  /* add styles here */
+}
+
+.recipes__paragraph {
+  /* add styles here */
+}
+
+.events__more {
+  /* add styles here */
+}
+
+.events__more:hover {
+  /* add styles here */
+}
+
+.events__cover {
+  /* add styles here for recipes */
+}
+
+.events__image {
+  /* add styles here for recipes */
+}
+
+.person {
+  /* add styles here and change section name */
+}
+
+.person_location_bottom {
+  /* add styles here and change section name */
+}
+
+.person_name_feynman {
+  /* add styles here and change section name */
+}
+
+.person_name_burbidge {
+  /* add styles here and change section name */
+}
+
+.person_name_cannon {
+  /* add styles here and change section name */
+}
+
+.person_name_mitchell {
+  /* add styles here and change section name */
+}
+
+.person_name_tarter {
+  /* add styles here and change section name */
+}
+
+.person__image {
+  /* add styles here and change section name */
+}
+
+.person__image_size_l {
+  /* add styles here and change section name */
+}
+
+.person__image_size_m {
+  /* add styles here and change section name */
+}
+
+.person__image_size_s {
+  /* add styles here and change section name */
+}
+
+.person__caption {
+  /* add styles here and change section name */
+}
+
+.staff {
+  /* add styles here and change section name */
+}
+
+.staff__title {
+  /* add styles here and change section name */
+}
+
+.staff__subtitle {
+  /* add styles here and change section name */
+}
+
+.staff__cards {
+  /* add styles here and change section name */
+}
+
+.card {
+  /* add styles here and change section name */
+}
+
+.card__content {
+  /* add styles here and change section name */
+}
+
+.card__title {
+  /* add styles here and change section name */
+}
