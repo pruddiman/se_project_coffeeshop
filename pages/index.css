@@ -40,7 +40,8 @@
 }
 
 .nav {
-  /* add styles here */
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav__logo {
