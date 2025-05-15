@@ -9,39 +9,74 @@
 
 .header {
   display: flex;
+  height: 800px;
   background-image: url(../images/background_header.svg);
 }
 
 .header__title {
+  position: relative;
   max-width: 729px;
-  /* add styles here */
+  left: 80px;
+  top: 213px;
+}
+
+.header__title_first-line {
+  font-family: "Noto Serif";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #3f96f3;
+}
+
+.header__title_second-line {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  letter-spacing: -0.6px;
 }
 
 .header__description {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  position: relative;
   max-width: 683px;
-  /* add styles here */
+  top: 241px;
+  left: 80px;
 }
 
 .header__image {
   position: absolute;
   width: 646px;
   height: 568px;
+  top: 124px;
+  right: 5px;
 }
 
 .header__footer {
-  /* add styles here */
+  display: flex;
+  margin-top: auto;
 }
 
-.header__link {
-  /* add styles here */
+.header__footer_address {
+  position: relative;
+  bottom: 40px;
+  right: 80px;
 }
 
-.header__link:hover {
-  /* add styles here */
+.header__footer_hours {
+  list-style: none;
+  position: relative;
+  left: 80px;
+  bottom: 40px;
 }
 
-.header__address {
-  /* add styles here */
+.header__footer_hours_item {
 }
 
 .nav {
@@ -54,9 +89,16 @@
   object-fit: contain;
   width: 105px;
   height: 39px;
+  top: 30px;
+  left: 30px;
 }
 
 .nav__links {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
   display: flex;
   list-style: none;
   position: relative;
@@ -65,7 +107,7 @@
 }
 
 .nav__link {
-  /* add styles here */
+  padding: 20px;
 }
 
 .nav__link:hover {
