@@ -8,19 +8,24 @@
 }
 
 .header {
-  /* add styles here */
+  display: flex;
+  background-image: url(../images/background_header.svg);
 }
 
 .header__title {
+  max-width: 729px;
   /* add styles here */
 }
 
 .header__description {
+  max-width: 683px;
   /* add styles here */
 }
 
 .header__image {
-  /* add styles here */
+  position: absolute;
+  width: 646px;
+  height: 568px;
 }
 
 .header__footer {
@@ -45,11 +50,18 @@
 }
 
 .nav__logo {
-  /* add styles here */
+  position: relative;
+  object-fit: contain;
+  width: 105px;
+  height: 39px;
 }
 
 .nav__links {
-  /* add styles here */
+  display: flex;
+  list-style: none;
+  position: relative;
+  top: 30px;
+  right: 80px;
 }
 
 .nav__link {
