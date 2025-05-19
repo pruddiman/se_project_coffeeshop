@@ -135,11 +135,20 @@
   display: flex;
   justify-content: center;
   gap: 40px;
+  list-style: none;
 }
 
 .recipes__iframe {
   width: 560px;
   height: 315px;
+  border: none;
+}
+
+.recipes__iframe_french {
+  width: 560px;
+  height: 315px;
+  border: solid #ffffff;
+  border-width: 1px 0;
 }
 
 .recipes__video-caption {
@@ -151,106 +160,54 @@
   justify-content: space-between;
 }
 
-.event-info__icon_type_pin {
+.reservation {
   /* add styles here and change title */
 }
 
-.recipes__text {
+.reservation__text {
   /* add styles here */
 }
 
-.recipes__paragraph {
+.reservation__paragraph {
   /* add styles here */
 }
 
-.events__more {
+.reservation__more {
   /* add styles here */
 }
 
-.events__more:hover {
+.reservation__title {
   /* add styles here */
 }
 
-.events__cover {
+.reservation__subtitle {
   /* add styles here for recipes */
 }
 
-.events__image {
+.reservation__image {
   /* add styles here for recipes */
 }
 
-.person {
+.menu {
   /* add styles here and change section name */
 }
 
-.person_location_bottom {
+.menu__title {
   /* add styles here and change section name */
 }
 
-.person_name_feynman {
+.menu__subtitle {
   /* add styles here and change section name */
 }
 
-.person_name_burbidge {
+.menu__image {
   /* add styles here and change section name */
 }
 
-.person_name_cannon {
+.menu__paragraph {
   /* add styles here and change section name */
 }
 
-.person_name_mitchell {
-  /* add styles here and change section name */
-}
-
-.person_name_tarter {
-  /* add styles here and change section name */
-}
-
-.person__image {
-  /* add styles here and change section name */
-}
-
-.person__image_size_l {
-  /* add styles here and change section name */
-}
-
-.person__image_size_m {
-  /* add styles here and change section name */
-}
-
-.person__image_size_s {
-  /* add styles here and change section name */
-}
-
-.person__caption {
-  /* add styles here and change section name */
-}
-
-.staff {
-  /* add styles here and change section name */
-}
-
-.staff__title {
-  /* add styles here and change section name */
-}
-
-.staff__subtitle {
-  /* add styles here and change section name */
-}
-
-.staff__cards {
-  /* add styles here and change section name */
-}
-
-.card {
-  /* add styles here and change section name */
-}
-
-.card__content {
-  /* add styles here and change section name */
-}
-
-.card__title {
+.menu__description {
   /* add styles here and change section name */
 }
