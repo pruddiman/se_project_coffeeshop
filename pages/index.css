@@ -61,7 +61,7 @@
 }
 
 .header__paragraph {
-  font-family: "Inter";
+  font-family: "Inter", "Arial", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -82,8 +82,7 @@
 }
 
 .nav__links {
-  font-family: "Inter";
-  font-style: normal;
+  font-family: "Inter", "Arial", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
@@ -117,7 +116,7 @@
 
 .recipes__title {
   max-width: 580px;
-  font-family: "Inter";
+  font-family: "Inter", "Arial", sans-serif;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -126,7 +125,7 @@
 
 .recipes__subtitle {
   max-width: 438px;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif" "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
   margin: 0 0 80px;
@@ -144,8 +143,7 @@
 }
 
 .recipes__video-caption {
-  font-family: "Inter";
-  font-style: normal;
+  font-family: "Inter", "Arial", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
