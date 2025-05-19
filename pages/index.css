@@ -141,6 +141,9 @@
 .recipes__iframe {
   width: 560px;
   height: 315px;
+}
+
+.recipes__iframe_aero {
   border: none;
 }
 
