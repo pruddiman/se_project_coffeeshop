@@ -109,7 +109,65 @@
             </li>
           </ul>
         </section>
-        <section class="reservation" id="bookatable"></section>
+        <section class="reservation" id="bookatable">
+          <div class="reservation__title">
+            <h3>Book a table</h3>
+          </div>
+          <div class="reservation__form">
+            <form class="form">
+              <fieldset class="form__fieldset">
+                <label class="form__label" for="Name Surname" name="name">
+                  Name *</label
+                >
+                <input
+                  class="form__input"
+                  placeholder="Name Surname"
+                  id="Name Surname"
+                  type="text"
+                  required
+                />
+                <label class="form__label" for="Number of guests" name="guests">
+                  Number of guests *</label
+                >
+                <input
+                  class="form__input"
+                  placeholder="1-8"
+                  type="range"
+                  id="Number of guests"
+                  min="1"
+                  max="8"
+                  required
+                />
+                <label class="form__label" for="Date & time" name="date"
+                  >Date & time *</label
+                >
+                <input
+                  class="form__input"
+                  type="datetime-local"
+                  id="Date & time"
+                  required
+                />
+                <label class="form__label" for="Your email" name="email"
+                  >Your email *</label
+                >
+                <input
+                  class="form__input"
+                  placeholder="email@email.com"
+                  type="email"
+                  id="Your email"
+                  required
+                />
+                <button class="form__button" type="submit">Book a table</button>
+                <label class="form__checkbox">
+                  <label class="checkbox" for="terms"
+                    >I agree with the terms of use</label
+                  >
+                  <input class="form__terms" id="terms" type="checkbox" />
+                </label>
+              </fieldset>
+            </form>
+          </div>
+        </section>
         <section class="menu" id="menu"></section>
         <section class="about"></section>
       </main>
