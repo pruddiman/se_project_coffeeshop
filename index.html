@@ -132,7 +132,7 @@
                 <input
                   class="form__input"
                   placeholder="1-8"
-                  type="range"
+                  type="number"
                   id="Number of guests"
                   min="1"
                   max="8"
@@ -151,7 +151,7 @@
                   >Your email *</label
                 >
                 <input
-                  class="form__input"
+                  class="form__input form__input_email_field"
                   placeholder="email@email.com"
                   type="email"
                   id="Your email"
@@ -159,10 +159,10 @@
                 />
                 <button class="form__button" type="submit">Book a table</button>
                 <label class="form__checkbox">
+                  <input class="form__terms" id="terms" type="checkbox" />
                   <label class="checkbox" for="terms"
                     >I agree with the terms of use</label
                   >
-                  <input class="form__terms" id="terms" type="checkbox" />
                 </label>
               </fieldset>
             </form>
