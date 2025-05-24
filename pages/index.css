@@ -208,22 +208,16 @@
   display: block;
   width: 100%;
   margin: 8px 0 32px;
-  border-radius: 4px;
   font-family: "Inter", "Arial", sans-serif;
   font-size: 20px;
   line-height: 30px;
   padding: 15px 20px;
   box-sizing: border-box;
   border: 1px solid #838383;
-}
-
-.form__input_email_field {
-  margin-bottom: 0;
+  border-radius: 4px;
 }
 
 .form__button {
-  margin: 32px 0;
-  padding: 20px 0;
   font-family: "Inter", "Arial", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -231,6 +225,11 @@
   color: #fff;
   background-color: #1878dc;
   transition: ease;
+  width: 100%;
+  padding: 20px 0;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 32px;
 }
 
 .form__button:hover {
@@ -241,10 +240,7 @@
   border-radius: 2px;
 }
 
-.form__terms {
-  width: 20px;
-  height: 20px;
-  margin-right: 12px;
+.form__label_type_checkbox {
 }
 
 .menu {

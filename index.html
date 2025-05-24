@@ -110,11 +110,8 @@
           </ul>
         </section>
         <section class="reservation" id="bookatable">
-          <div class="reservation__title">
-            <h3>Book a table</h3>
-          </div>
-          <div class="reservation__form">
-            <form class="form">
+          <h2 class="reservation__title">Book a table</h2>
+            <form class= "reservation__form form">
               <fieldset class="form__fieldset">
                 <label class="form__label" for="Name Surname" name="name">
                   Name *</label
@@ -151,18 +148,15 @@
                   >Your email *</label
                 >
                 <input
-                  class="form__input form__input_email_field"
+                  class="form__input"
                   placeholder="email@email.com"
                   type="email"
                   id="Your email"
                   required
                 />
                 <button class="form__button" type="submit">Book a table</button>
-                <label class="form__checkbox">
-                  <input class="form__terms" id="terms" type="checkbox" />
-                  <label class="checkbox" for="terms"
-                    >I agree with the terms of use</label
-                  >
+                <label class="form__label" for="terms">I agree with the terms of use
+                  <input class="form__input" id="terms" type="checkbox" />
                 </label>
               </fieldset>
             </form>
