@@ -224,12 +224,12 @@
   line-height: 20px;
   color: #fff;
   background-color: #1878dc;
-  transition: ease;
   width: 100%;
   padding: 20px 0;
   border: none;
   border-radius: 4px;
   margin-bottom: 32px;
+  transition: background-color 0.5s ease;
 }
 
 .form__button:hover {
@@ -238,9 +238,15 @@
 
 .form__checkbox {
   border-radius: 2px;
+  width: 20px;
+  height: 20px;
 }
 
 .form__label_type_checkbox {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  gap: 12px;
 }
 
 .menu {
