@@ -250,25 +250,46 @@
 }
 
 .menu {
+  padding: 100px 0;
+  background-image: url(../images/background_menu.svg);
+  background-size: cover;
   /* add styles here and change section name */
 }
 
 .menu__title {
+  text-align: center;
+  max-width: 780px;
   /* add styles here and change section name */
 }
 
 .menu__subtitle {
+  text-align: center;
+  max-width: 780px;
+  margin: 24px 0 100px;
   /* add styles here and change section name */
 }
 
-.menu__image {
+.menu__cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   /* add styles here and change section name */
 }
 
-.menu__paragraph {
+.card {
+  list-style: none;
   /* add styles here and change section name */
 }
 
-.menu__description {
+.card__menu-item_type_filter {
+}
+
+.card__title {
   /* add styles here and change section name */
+}
+
+.card__list-item {
+}
+
+.card__list-divider {
 }
