@@ -107,6 +107,11 @@
 
 .nav__link {
   padding-left: 20px;
+  transition: color 0.5s ease;
+}
+
+.nav__link:hover {
+  color: #2f80ed;
 }
 
 .recipes {
@@ -242,10 +247,13 @@
   border-radius: 4px;
   margin-bottom: 32px;
   transition: background-color 0.5s ease;
+  opacity: 1;
+  transition: opacity 0.5 ease;
 }
 
 .form__button:hover {
   background-color: #3f96f3;
+  opacity: 0.7;
 }
 
 .form__checkbox {
@@ -269,6 +277,7 @@
   background-position: center;
   background-repeat: no-repeat;
   margin: auto 0;
+  color: #000000;
 }
 
 .menu__title {
@@ -279,7 +288,6 @@
   font-size: 44px;
   line-height: 52px;
   margin: 0 auto;
-  /* add styles here and change section name */
 }
 
 .menu__subtitle {
@@ -429,6 +437,7 @@
 .footer__social-link {
   gap: 10px;
   color: #ffffff;
+  transition: color 0.5s ease;
 }
 
 .footer__social-link:hover {
