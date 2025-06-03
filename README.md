@@ -2,6 +2,8 @@
 
 This is the second project. It is the Triple Peaks Library. I used HTML/CSS to create the website with some hover effects with buttons and links, an animation in the about section, and some smooth transitions (with a keyframes attribute).
 
+URL: https://pruddiman.github.io/se_project_coffeeshop/
+
 ## Project features
 
 - Semantic HTML5
